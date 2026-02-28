@@ -1,0 +1,271 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1280px;
+}
+
+p , h1 , h2 , h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 42px;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.navigation {
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+
+.ul {
+    display: flex;
+    gap: 24px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    padding: 42px 24px;
+    justify-content: space-between;
+    gap: 68px;
+    align-items: center;
+}
+.hero-text {
+    margin-bottom: 48px;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.VD {
+    font-size: 68px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+.description {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.btn {
+  display: flex;
+  padding: 24px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 175px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+
+.pido {
+    text-align: center;
+    font-family: "Epilogue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.hero-avatar {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.skills {
+  padding: 42px 24px;
+    background: #fff;
+}
+
+
+.skills-cont {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.skill-kart {
+    text-align: center;
+    padding: 24px;
+}
+
+
+.skill-kart h3 {
+    margin: 20px 0 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.skill-kart p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+
+
+
+.latest-works {
+  padding: 80px 20px;
+  background: #fff;
+  text-align: center;
+}
+.latest-works h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.latest-work-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.latest-work-card {
+
+  max-width: 400px;
+  padding: 24px;
+}
+.latest-work-card p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.latest-work-paraghraph {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.testimonials {
+  padding: 80px 10%;
+  background: #fff;
+  text-align: center;
+}
+.testimonials h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.testimonial-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.testimonial-card {
+  background: #fafafa;
+  padding: 24px;
+}
+.testimonial-card p {
+  margin-bottom: 20px;
+}
+.testimonial-paraghraph {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.testimonial-paraghraph h4 {
+  font-size: 14px;
+}
+.testimonial-paraghraph span {
+  font-size: 12px;
+  color: gray;
+}
+
+
+.contact {
+  padding: 80px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+
+.contact-info {
+  flex: 1 1 350px;
+}
+
+
+.contact-info h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+
+.contact-info p {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+
+.contact-items {
+  justify-content: space-between;
+  gap: 24px;
+}
+
+
+.contact-form {
+  flex: 1 1 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.contact-form input {
+  padding: 14px;
+  border: 1px solid #ddd;
+}
+
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  background: black;
+  cursor: pointer;
+  padding: 24px 64px;
+  justify-content: center;
+  gap: 10px;
+  width: 175px;
+  color: white;
+  border-radius: 3px;
+}
